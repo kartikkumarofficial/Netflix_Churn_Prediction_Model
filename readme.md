@@ -127,7 +127,8 @@ Netflix-Churn-Prediction/
 ├── notebook/
 │   └── churn_model.ipynb
 │
-├── streamlit_app.py
+├── app/
+│   └── app.py
 ├── requirements.txt
 └── README.md
 ```
@@ -149,7 +150,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run Streamlit app
 ```bash
-streamlit run streamlit_app.py
+streamlit run app/app.py
 ```
 
 ---
@@ -192,6 +193,6 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Kartik Kumar**  
-AI/ML • Flutter • Backend • Data Science
+AI/ML • Flutter • Data Science
 
 If you like this project, feel free to ⭐ the repository.
